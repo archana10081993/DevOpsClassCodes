@@ -18,7 +18,6 @@ public class GenericResourceBundle {
 		}
 		return value;
 	}
-public void Sangu(){}
 	
 }
 
