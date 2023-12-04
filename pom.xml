@@ -60,6 +60,11 @@
             <artifactId>vaadin-compatibility-server</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
+	<dependency>  
+        	<groupId>org.ow2.asm</groupId>  
+                <artifactId>asm</artifactId>  
+                <version>5.0.3</version>  
+        </dependency> 
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-compatibility-shared</artifactId>
@@ -427,13 +432,6 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
-		<dependencies>  
-                <dependency>  
-                    <groupId>org.ow2.asm</groupId>  
-                    <artifactId>asm</artifactId>  
-                    <version>5.0.3</version>  
-                </dependency>  
-                </dependencies>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
